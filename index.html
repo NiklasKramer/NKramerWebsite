@@ -3,28 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css\style.css">
+    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+          rel="stylesheet">
     <title>NKRAMER</title>
 </head>
 <body>
-<h2>N KRAMER</h2>
+
 <div id="content">
+    <h2>N KRAMER</h2>
     <nav>
         <ul class="navigation">
-            <li>About</li>
-            <li>Music</li>
-            <li>Live</li>
-            <li>Shop</li>
+            <li id="nav-about"><a>About</a></li>
+            <li id="nav-music"><a>Music</a></li>
+            <li><a href="https://nkramer.bandcamp.com/" target="_blank">Shop </a></li>
         </ul>
     </nav>
     <nav>
         <ul class="externallinks">
-            <li><a href="https://instagram.com/n__kramer">Instagram </a></li>
-            <li><a href="https://nkramer.bandcamp.com/">Bandcamp</a></li>
-            <li><a href="https://open.spotify.com/artist/6pY5KhflZwSO9L6Iq2A77t?si=x3ifMJ3_RHWAtSHw3fMkYA">Spotify</a></li>
+            <li><a href="https://instagram.com/n__kramer" target="_blank">Instagram </a></li>
+            <li><a href="https://nkramer.bandcamp.com/" target="_blank">Bandcamp</a></li>
+            <li><a href="https://open.spotify.com/artist/6pY5KhflZwSO9L6Iq2A77t?si=x3ifMJ3_RHWAtSHw3fMkYA"
+                   target="_blank">Spotify</a></li>
         </ul>
     </nav>
-    <main class="sections">
-        <div class="section__about">
+    <main class="sections" id="SECTIONS">
+        <div class="section__about" id="ABOUT">
             <h2>About</h2>
             <p>N KRAMER is the the alias of Berlin-based Niklas Kramer, who also performs under the moniker: Still
                 Parade. Where his latest Still Parade record is a Brian Wilson inspired DIY gem that’s full of psych-pop
@@ -32,17 +36,17 @@
                 halcyon days and hushed landscapes. A blend of modular synth, soft percussion and subtle tape effects
                 that are combined in his delicate way.</p>
         </div>
-        <div class="section__music">
+        <div class="section__music" id="MUSIC">
             <h2>Music</h2>
             <div class="section__music__releases">
                 <h3>Selected Releases</h3>
                 <ul class="section__music__releases_navigation">
-                    <li>Still Parade - Soon Enough</li>
-                    <li>N Kramer - Endless</li>
-                    <li>Still Parade - Concrete Vision</li>
+                    <li id="nav-release01">Still Parade - Soon Enough</li>
+                    <li id="nav-release02"> N Kramer - Endless</li>
+                    <li id="nav-release03">Still Parade - Concrete Vision</li>
                 </ul>
                 <div class="section__music__releases__infos">
-                    <div class="section__music__releases__info">
+                    <div class="section__music__releases__info" id="RELEASE01">
                         <h4>Still Parade - Soon Enough (2018)</h4>
                         <img src="images/stillparade_soonenough_artwork.jpg">
                         <p class="section__music__releases__info-quote">
@@ -52,25 +56,36 @@
                         </p>
                     </div>
 
-                    <div class="section__music__releases__info">
+                    <div class="section__music__releases__info" id="RELEASE02">
                         <h4>N KRAMER - Endless (2018)</h4>
                         <img src="images/nkramer_endless_artwork.jpg">
                         <p class="section__music__releases__info-quote">
-                            XLR8R:  “Slipping Through The Cracks is a sumptuous track with dreamlike textures.”
+                            XLR8R: “Slipping Through The Cracks is a sumptuous track with dreamlike textures.”
                             DUMMY MAG: “N KRAMER delivers a blissful synthetic experience”
                         </p>
                         <p class="section__music__releases__info-pressrelease">
-                            There is something beautiful and pure about the textures of European Experimental Music in the late 70s. A unique sound palette forming and encapsulating a distinct and exciting world.
+                            There is something beautiful and pure about the textures of European Experimental Music in
+                            the late 70s. A unique sound palette forming and encapsulating a distinct and exciting
+                            world.
 
-                            On his Debut EP, “Endless” Berlin-based musician and producer N KRAMER is picking up on these sounds and takes the listener on a dream-like journey through this delicate musical world.
-                            Taking cues from abstract art, different shapes and colours are combined to evoke a sense of emotion. Polyrhythmic patterns that seem to be constantly evolving, reflect the works of ambient pioneers such as Ashra, Harmonia and of course, Brian Eno. A blend of modular synth, soft percussion and subtle tape effects that is put together in a unique and individual style.
+                            On his Debut EP, “Endless” Berlin-based musician and producer N KRAMER is picking up on
+                            these sounds and takes the listener on a dream-like journey through this delicate musical
+                            world.
+                            Taking cues from abstract art, different shapes and colours are combined to evoke a sense of
+                            emotion. Polyrhythmic patterns that seem to be constantly evolving, reflect the works of
+                            ambient pioneers such as Ashra, Harmonia and of course, Brian Eno. A blend of modular synth,
+                            soft percussion and subtle tape effects that is put together in a unique and individual
+                            style.
 
-                            The EP wades through the feeling of how short-lived experiences can alter your whole perspective. Songs like "Endless" and “It Has Never Worked Before (Timeless)” try to apprehend these feelings and extend them, wrapping the listener in a swelling blanket of comfort.
+                            The EP wades through the feeling of how short-lived experiences can alter your whole
+                            perspective. Songs like "Endless" and “It Has Never Worked Before (Timeless)” try to
+                            apprehend these feelings and extend them, wrapping the listener in a swelling blanket of
+                            comfort.
 
                             “Endless” will be released March 30 on N KRAMER’s own imprint FEEL FLOWS.
                         </p>
                     </div>
-                    <div class="section__music__releases__info">
+                    <div class="section__music__releases__info" id="RELEASE03">
                         <h4>Still Parade - Concrete Vision (2016)</h4>
                         <img src="images/stillparade_concretevision_artwork.jpg">
                         <p class="section__music__releases__info-quote">
@@ -82,9 +97,6 @@
                 </div>
             </div>
         </div>
-        <div class="section__live"></div>
-        <div class="section__shop"></div>
-
     </main>
 
 </div>
