@@ -1,0 +1,12 @@
+{
+  "name": "NKramerWebsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NiklasKramer/NKramerWebsite.git",
+  "author": "Niklas Kramer <43847968+NiklasKramer@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "sass --watch scss/style.scss:css/style.css"
+  }
+}
+
