@@ -1,0 +1,17 @@
+.bnav{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bnav ul{
+  @include navigation_bar;
+  position: relative;
+  background-color: $background-color;
+}
+
+.externallinks{
+  position: relative;
+  z-index: -10;
+}

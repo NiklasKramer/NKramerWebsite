@@ -1,0 +1,10 @@
+@import "../00-settings/fonts";
+
+body{
+  font-family: $main-font-family;
+  font-size: $main-font-size;
+}
+
+p{
+  font-size: $main-font-size*0.9;
+}

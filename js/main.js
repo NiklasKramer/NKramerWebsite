@@ -19,6 +19,7 @@ window.onload = () => {
 
     let navAbout = document.getElementById("nav-about")
     let navMusic = document.getElementById("nav-music")
+
     navAbout.onclick = function(){selectSection("ABOUT",sections)}
     navMusic.onclick = function(){selectSection("MUSIC",sections)}
 

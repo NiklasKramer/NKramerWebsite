@@ -1,0 +1,8 @@
+@mixin navigation_bar {
+  @include block-center;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  min-height: 8vh;
+  font-family: $main-font-family;
+}

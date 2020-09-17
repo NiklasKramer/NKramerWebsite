@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css\style.css">
     <script src="js/main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
@@ -11,22 +12,22 @@
 <body>
 
 <div id="content">
-    <h2>N KRAMER</h2>
-    <nav>
-        <ul class="navigation">
-            <li id="nav-about"><a>About</a></li>
-            <li id="nav-music"><a>Music</a></li>
+    <nav class="top-navigation">
+    <div class="logo">
+        <h2>N Kramer</h2>
+    </div>
+
+        <ul class="nav-links">
+            <li id="nav-about"><a href="#">About</a></li>
+            <li id="nav-music"><a href="#">Music</a></li>
             <li><a href="https://nkramer.bandcamp.com/" target="_blank">Shop </a></li>
         </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
     </nav>
-    <nav>
-        <ul class="externallinks">
-            <li><a href="https://instagram.com/n__kramer" target="_blank">Instagram </a></li>
-            <li><a href="https://nkramer.bandcamp.com/" target="_blank">Bandcamp</a></li>
-            <li><a href="https://open.spotify.com/artist/6pY5KhflZwSO9L6Iq2A77t?si=x3ifMJ3_RHWAtSHw3fMkYA"
-                   target="_blank">Spotify</a></li>
-        </ul>
-    </nav>
+
     <main class="sections" id="SECTIONS">
         <div class="section__about" id="ABOUT">
             <h2>About</h2>
@@ -35,16 +36,20 @@
                 songwriting, the N KRAMER project evokes a green world, where synthesised strings and winds evoke still,
                 halcyon days and hushed landscapes. A blend of modular synth, soft percussion and subtle tape effects
                 that are combined in his delicate way.</p>
+            <img src="images/pic1byColeyBrown.jpg">
+
         </div>
         <div class="section__music" id="MUSIC">
             <h2>Music</h2>
             <div class="section__music__releases">
                 <h3>Selected Releases</h3>
-                <ul class="section__music__releases_navigation">
-                    <li id="nav-release01">Still Parade - Soon Enough</li>
-                    <li id="nav-release02"> N Kramer - Endless</li>
-                    <li id="nav-release03">Still Parade - Concrete Vision</li>
-                </ul>
+                <nav>
+                    <ul class="section__music__releases_navigation">
+                        <li id="nav-release01"><a href="#">Still Parade - Soon Enough</a></li>
+                        <li id="nav-release02"><a href="#"> N Kramer - Endless</a></li>
+                        <li id="nav-release03"><a href="#">Still Parade - Concrete Vision</a></li>
+                    </ul>
+                </nav>
                 <div class="section__music__releases__infos">
                     <div class="section__music__releases__info" id="RELEASE01">
                         <h4>Still Parade - Soon Enough (2018)</h4>
@@ -99,7 +104,16 @@
         </div>
     </main>
 
-</div>
+    <nav class="bnav">
+        <ul class="externallinks">
+            <li><a href="https://instagram.com/n__kramer" target="_blank">Instagram </a></li>
+            <li><a href="https://nkramer.bandcamp.com/" target="_blank">Bandcamp</a></li>
+            <li><a href="https://open.spotify.com/artist/6pY5KhflZwSO9L6Iq2A77t?si=x3ifMJ3_RHWAtSHw3fMkYA"
+                   target="_blank">Spotify</a></li>
+        </ul>
+    </nav>
 
+</div>
+<script src="js/menu.js"></script>
 </body>
 </html>
