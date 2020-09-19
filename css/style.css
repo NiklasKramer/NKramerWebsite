@@ -22,6 +22,26 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#CONTENT {
+  display: none;
+}
+
+/*mixin w parameters*/
+body {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+}
+
+#LANDING {
+  display: block;
+}
+
+#LANDING h1 a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .top-navigation {
   top: 0px;
   position: fixed;
@@ -64,6 +84,7 @@ img {
 nav ul li a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 nav ul li {
@@ -147,6 +168,16 @@ nav ul li {
 
 .sections {
   padding: 2%;
+}
+
+.section__music__releases__info {
+  width: 50%;
+}
+
+.section__music__releases__info__element {
+  left: auto;
+  right: auto;
+  background-color: aquamarine;
 }
 
 /*# sourceMappingURL=style.css.map */

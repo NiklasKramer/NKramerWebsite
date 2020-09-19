@@ -7,3 +7,9 @@
   margin: $margin-top-bottom auto;
   padding: $padding-all;
 }
+
+@mixin remove-linkstyle {
+  text-decoration:none;
+  color: inherit;
+  cursor:pointer;
+}

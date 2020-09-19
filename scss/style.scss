@@ -1,5 +1,7 @@
 @import "00-settings/colors";
 @import "00-settings/fonts";
+@import "00-settings/gradients";
+
 
 @import "01-tools/functions";
 @import "01-tools/mixins";
@@ -11,10 +13,17 @@
 @import "03-elements/body";
 @import "03-elements/image";
 
+@import "04-objects/grid";
+@import "04-objects/content";
+@import "04-objects/landing";
+
+
+
+
 @import "05-components/top-navigation";
 @import "05-components/bottom-navigation";
 @import "05-components/sections";
 
 
-@import "04-objects/grid";
+
 

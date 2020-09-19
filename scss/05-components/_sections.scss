@@ -1,3 +1,16 @@
-.sections{
+.sections {
   @include block-center
+}
+
+.section__music__releases__info {
+  width: 50%;
+}
+
+.section__music__releases__info__element {
+
+  left: auto;
+  right:auto;
+  background-color: aquamarine;
+
+
 }

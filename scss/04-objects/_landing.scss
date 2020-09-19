@@ -1,0 +1,16 @@
+@import "../01-tools/mixins";
+
+body{
+
+  background: $gradient-color1;
+  background: $roundgradient;
+}
+#LANDING{
+  display: block;
+}
+
+#LANDING h1 a{
+  @include remove-linkstyle
+}
+
+
