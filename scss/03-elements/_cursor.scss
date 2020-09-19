@@ -1,0 +1,31 @@
+.cursor{
+  width: 1rem;
+  height: 1rem;
+  border: 1.5px solid $gradient-color1;
+  background-color: $gradient-color1;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+}
+
+.link-grow{
+  transform: scale(2);
+  background: transparent ;
+  z-index: 5;
+
+}
+
+.hovered-link{
+  color: $gradient-color2;
+  z-index: 20;
+  font-weight: bold;
+}
+
+body{
+  cursor: none;
+}

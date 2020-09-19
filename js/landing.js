@@ -8,7 +8,5 @@ const enterPage = () => {
         document.querySelector('body').style.background= "rgb(243, 243, 243)"
 
     })
-
 }
-
 enterPage()

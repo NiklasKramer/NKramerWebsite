@@ -2,11 +2,22 @@
 
 body{
 
-  background: $gradient-color1;
-  background: $roundgradient;
 }
 #LANDING{
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
   display: block;
+  background: $gradient-color1;
+  background: $roundgradient;
+  transform: translate(0, 0%);
+
 }
 
 #LANDING h1 a{
