@@ -20,11 +20,11 @@ function cursor(e) {
 // LOGO ANIMATION
 mainLogo.addEventListener('mouseover', () => {
     mainLogo.classList.add('hovered-logo');
-    mouseCursor.classList.add('link-grow');
+    //mouseCursor.classList.add('link-grow');
 })
 mainLogo.addEventListener('mouseleave', () => {
     mainLogo.classList.remove('hovered-logo');
-    mouseCursor.classList.remove('link-grow');
+    //mouseCursor.classList.remove('link-grow');
 })
 
 
