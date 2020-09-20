@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+h3, h4 {
+  padding: 1%;
+}
+
 body {
   background-color: #f3f3f3;
   height: 100vh;
@@ -18,9 +22,10 @@ body {
 
 img {
   width: auto;
-  max-width: 350px;
-  max-height: 350px;
+  max-width: 100%;
+  max-height: 100%;
   height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cursor {
@@ -54,13 +59,38 @@ body {
   cursor: none;
 }
 
-.section {
-  display: inline-flex;
+#MAIN {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sections {
+  width: 90%;
 }
 
 .section__part {
   display: inline-flex;
-  max-width: 100%;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  align-content: space-around;
+  min-width: 20%;
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-bottom: 70px;
+}
+
+.section__nav ul {
+  min-width: 500px !important;
+}
+
+.section__part__under {
+  min-width: 20%;
+  max-width: 500px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 5%;
 }
 
 #CONTENT {
@@ -104,7 +134,7 @@ body {
 .top-navigation {
   top: 0px;
   position: fixed;
-  padding: 2%;
+  padding: 1%;
   height: 80px;
   width: 100%;
   display: flex;
@@ -143,11 +173,6 @@ nav ul li a {
   text-decoration: none;
   color: inherit;
   cursor: none;
-}
-
-nav ul li {
-  margin: 0 5px;
-  padding: 2%;
 }
 
 @media screen and (max-width: 768px) {
@@ -210,7 +235,7 @@ nav ul li {
 }
 
 .bnav ul {
-  padding: 2%;
+  padding: 1%;
   height: 80px;
   width: 100%;
   display: flex;
@@ -226,11 +251,7 @@ nav ul li {
 }
 
 .sections {
-  padding: 2%;
-}
-
-.section__music__releases__info {
-  width: 50%;
+  padding: 1%;
 }
 
 /*# sourceMappingURL=style.css.map */

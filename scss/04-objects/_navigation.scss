@@ -1,5 +1,5 @@
 @mixin navigation_bar {
-  @include block-center;
+  @include main-padding;
   height: 80px;
   width: 100%;
   display: flex;
