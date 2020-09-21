@@ -47,15 +47,17 @@ nav ul li {
   body {
     overflow-x: hidden;
   }
-  .nav-links {
+ .nav-links {
     display: none;
+
     position: absolute;
     right: 0px;
     height: 90vh;
     top: 10vh;
     background-color: $text-color;
-    color: $background-color;
-    font-size: $main-font-size*1.5;
+    //color: $background-color;
+   color:$gradient-color2;
+    font-size: $main-font-size*3;
 
     display: flex;
     flex-direction: column;

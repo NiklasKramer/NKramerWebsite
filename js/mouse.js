@@ -1,5 +1,5 @@
 let mouseCursor = document.querySelector('.cursor');
-let navLinks = document.querySelectorAll('.nav-links li')
+let navLinks = document.querySelectorAll('.nav--mouse li')
 let mainLogo = document.querySelector('.logo')
 let landing = document.querySelector('#LANDING')
 
