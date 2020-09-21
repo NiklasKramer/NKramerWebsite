@@ -2,7 +2,7 @@
   @include navigation_bar;
   position: relative;
   @include content-padding;
-  z-index: 1 !important;
+  z-index: 0 !important;
 }
 
 .nav--content li{
