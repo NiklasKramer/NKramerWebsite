@@ -69,14 +69,14 @@ body {
 
 .section__part {
   display: inline-flex;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
-  align-content: baseline;
   align-content: space-around;
+  justify-content: center;
+  text-align: center;
   min-width: 20%;
   padding-top: 5%;
-  padding-left: 10%;
   margin-bottom: 70px;
 }
 

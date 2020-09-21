@@ -1,41 +1,26 @@
 #MAIN {
   display: flex;
-  //left: 38%;
-  //justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .sections {
-  //@include main-padding;
   width: 100%;
-  //justify-content: center;
-
-}
-
-.section {
-
 }
 
 .section__part {
   display: inline-flex;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
-  align-content: baseline;
   align-content: space-around;
-
+  justify-content: center;
+  text-align: center;
   min-width: 20%;
   padding-top: 5%;
-  @include content-padding;
   margin-bottom: 70px;
-
 }
 
 .section__nav {
-
-  //display: inline-flex  !important;
-  //justify-content: center;
   ul {
     min-width: 500px !important;;
   }
@@ -44,7 +29,6 @@
 .section__part__under {
   min-width: 25%;
   max-width: 400px;
-  //max-height: 300px;
   padding-right: 2%;
   padding-bottom: 5%;
 }
