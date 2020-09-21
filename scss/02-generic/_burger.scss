@@ -1,0 +1,19 @@
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 24px;
+  height: 2px;
+  background-color: $text-color;
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 0px);
+}
+
+.toggle .line2 {
+  transform: rotate(45deg) translate(-5px, 0px);
+}

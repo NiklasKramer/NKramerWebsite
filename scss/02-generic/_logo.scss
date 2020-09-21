@@ -1,0 +1,7 @@
+.logo {
+  @include main-padding;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: $main-font-size;
+
+}

@@ -1,3 +1,8 @@
- h3,h4{
+ h3,h4,h2{
   @include main-padding
 }
+
+ nav ul li a {
+   @include remove-linkstyle;
+   cursor: none;
+ }

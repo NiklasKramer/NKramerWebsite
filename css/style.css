@@ -6,8 +6,41 @@
   list-style: none;
 }
 
-h3, h4 {
+h3, h4, h2 {
   padding: 1%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  cursor: none;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 24px;
+  height: 2px;
+  background-color: #030101;
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 0px);
+}
+
+.toggle .line2 {
+  transform: rotate(45deg) translate(-5px, 0px);
+}
+
+.logo {
+  padding: 1%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 16px;
 }
 
 body {
@@ -135,6 +168,12 @@ body {
   color: #78beef;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
 .top-navigation {
   top: 0px;
   position: fixed;
@@ -144,40 +183,10 @@ body {
   flex-wrap: wrap;
   height: 10%;
   font-family: "Cormorant Garamond", serif;
-  height: 40px;
+  height: 10vh;
   justify-content: space-between;
   align-items: center;
   background-color: #f3f3f3;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  width: 20%;
-}
-
-.logo {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 16px;
-}
-
-.burger {
-  display: none;
-}
-
-.burger div {
-  width: 24px;
-  height: 2px;
-  background-color: #030101;
-  margin: 5px;
-  transition: all 0.3s;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: inherit;
-  cursor: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -198,8 +207,8 @@ nav ul li a {
     display: none;
     position: absolute;
     right: 0px;
-    height: 95vh;
-    top: 5vh;
+    height: 90vh;
+    top: 10vh;
     background-color: #030101;
     color: #ee9a6e;
     font-size: 48px;
@@ -235,14 +244,6 @@ nav ul li a {
     transform: translateX(0px);
   }
 }
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 0px);
-}
-
-.toggle .line2 {
-  transform: rotate(45deg) translate(-5px, 0px);
-}
-
 .nav--content {
   padding: 1%;
   width: 100%;
