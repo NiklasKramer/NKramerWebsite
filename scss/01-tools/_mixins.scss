@@ -2,6 +2,10 @@
   padding: 1%;
 }
 
+@mixin content-padding {
+  padding-left: 10%
+}
+
 /*mixin w parameters*/
 @mixin block-center-variable($margin-top-bottom, $padding-all){
   margin: $margin-top-bottom auto;

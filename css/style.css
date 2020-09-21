@@ -77,7 +77,7 @@ body {
   align-content: space-around;
   min-width: 20%;
   padding-top: 5%;
-  padding-left: 5%;
+  padding-left: 10%;
   margin-bottom: 70px;
 }
 
@@ -88,7 +88,6 @@ body {
 .section__part__under {
   min-width: 20%;
   max-width: 500px;
-  padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 5%;
 }
@@ -137,6 +136,7 @@ body {
   padding: 1%;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   min-height: 8vh;
   font-family: "Cormorant Garamond", serif;
   height: 40px;
@@ -178,6 +178,15 @@ nav ul li a {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
+    cursor: default;
+  }
+
+  .cursor {
+    opacity: 0;
+  }
+
+  nav ul li a {
+    cursor: default;
   }
 
   .nav-links {
@@ -229,6 +238,23 @@ nav ul li a {
   transform: rotate(45deg) translate(-5px, 0px);
 }
 
+.nav--content {
+  padding: 1%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 8vh;
+  font-family: "Cormorant Garamond", serif;
+  padding-left: 5%;
+  position: relative;
+  padding-left: 10%;
+  z-index: 0;
+}
+
+.nav--content li {
+  padding-right: 5%;
+}
+
 .bnav {
   position: fixed;
   bottom: 0;
@@ -240,6 +266,7 @@ nav ul li a {
   padding: 1%;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   min-height: 8vh;
   font-family: "Cormorant Garamond", serif;
   height: 40px;

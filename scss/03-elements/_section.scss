@@ -13,38 +13,38 @@
 
 }
 
-.section{
+.section {
 
 }
+
 .section__part {
   display: inline-flex;
   align-items: flex-start;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   align-content: baseline;
   align-content: space-around;
 
   min-width: 20%;
-  padding-top: 5% ;
-  padding-left: 5%;
+  padding-top: 5%;
+  @include content-padding;
   margin-bottom: 70px;
 
 }
 
-.section__nav{
+.section__nav {
 
   //display: inline-flex  !important;
   //justify-content: center;
-  ul{
+  ul {
     min-width: 500px !important;;
   }
 }
 
-.section__part__under{
+.section__part__under {
   min-width: 20%;
   max-width: 500px;
   //max-height: 300px;
-  padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 5%;
 }

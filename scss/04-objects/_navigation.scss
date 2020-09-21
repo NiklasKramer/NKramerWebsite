@@ -2,6 +2,7 @@
   @include main-padding;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   min-height: 8vh;
   font-family: $main-font-family;
 }

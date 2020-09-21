@@ -46,6 +46,13 @@ nav ul li {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
+    cursor: default;
+  }
+  .cursor{
+    opacity: 0;
+  }
+  nav ul li a {
+    cursor: default;
   }
  .nav-links {
     display: none;

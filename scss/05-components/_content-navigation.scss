@@ -1,0 +1,12 @@
+.nav--content{
+  @include navigation_bar;
+  padding-left: 5%;
+  position: relative;
+  @include content-padding;
+  z-index: 0;
+
+}
+
+.nav--content li{
+  padding-right: 5%;
+}
