@@ -1,6 +1,6 @@
 @import "../04-objects/navigation";
 
-.top-navigation {
+.navigation__top {
   top: 0px;
   position: fixed;
   @include navigation_bar;
@@ -22,7 +22,7 @@
   nav ul li a {
     cursor: default;
   }
-  .nav-links {
+  .nav__links {
     display: none;
     position: absolute;
     right: 0px;
@@ -41,7 +41,7 @@
     z-index: -10;
 
   }
-  .nav-links li {
+  .nav__links li {
     opacity: 0;
   }
   .burger {
@@ -49,7 +49,7 @@
   }
 }
 
-.nav-active {
+.nav--active {
   transform: translateX(0%)
 }
 

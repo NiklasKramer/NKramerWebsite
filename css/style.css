@@ -28,11 +28,11 @@ nav ul li a {
   transition: all 0.3s;
 }
 
-.toggle .line1 {
+.toggle .burger__line1 {
   transform: rotate(-45deg) translate(-5px, 0px);
 }
 
-.toggle .line2 {
+.toggle .burger__line2 {
   transform: rotate(45deg) translate(-5px, 0px);
 }
 
@@ -150,13 +150,12 @@ body {
   opacity: 100%;
   transition: opacity 2s ease-in;
 }
-#LANDING h1 {
-  text-align: center;
+#LANDING .landing__instruction {
+  position: relative;
   color: #f3f3f3;
-}
-#LANDING h1 a {
-  text-decoration: none;
-  color: inherit;
+  top: 80%;
+  width: 100%;
+  text-align: center;
 }
 
 .logo {
@@ -168,13 +167,13 @@ body {
   color: #78beef;
 }
 
-.nav-links {
+.nav__links {
   display: flex;
   justify-content: space-between;
   width: 20%;
 }
 
-.top-navigation {
+.navigation__top {
   top: 0px;
   position: fixed;
   padding: 1%;
@@ -203,7 +202,7 @@ body {
     cursor: default;
   }
 
-  .nav-links {
+  .nav__links {
     display: none;
     position: absolute;
     right: 0px;
@@ -222,7 +221,7 @@ body {
     z-index: -10;
   }
 
-  .nav-links li {
+  .nav__links li {
     opacity: 0;
   }
 
@@ -230,7 +229,7 @@ body {
     display: block;
   }
 }
-.nav-active {
+.nav--active {
   transform: translateX(0%);
 }
 
@@ -244,7 +243,7 @@ body {
     transform: translateX(0px);
   }
 }
-.nav--content {
+.nav__content {
   padding: 1%;
   width: 100%;
   display: flex;
@@ -256,7 +255,7 @@ body {
   z-index: 0 !important;
 }
 
-.nav--content li {
+.nav__content li {
   padding-right: 5%;
 }
 

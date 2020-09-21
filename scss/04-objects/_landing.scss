@@ -1,15 +1,12 @@
 @import "../01-tools/mixins";
 
-body{
-
-}
-#LANDING{
+#LANDING {
   z-index: 90;
-  position:fixed;
-  padding:0;
-  margin:0;
-  top:0;
-  left:0;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   display: block;
@@ -17,15 +14,16 @@ body{
   background: $roundgradient;
   opacity: 100%;
   transition: opacity 2s ease-in;
-  h1{
-    text-align: center;
-    color: $background-color;
-  }
-  h1 a{
-    @include remove-linkstyle;
-  }
 
+  .landing__instruction {
+    position:relative;
+    color:$background-color;
+    top:80%;
+    width: 100%;
+    text-align: center;
+  }
 }
+
 
 
 

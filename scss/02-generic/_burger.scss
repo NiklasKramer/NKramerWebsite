@@ -10,10 +10,10 @@
   transition: all 0.3s;
 }
 
-.toggle .line1 {
+.toggle .burger__line1 {
   transform: rotate(-45deg) translate(-5px, 0px);
 }
 
-.toggle .line2 {
+.toggle .burger__line2 {
   transform: rotate(45deg) translate(-5px, 0px);
 }
