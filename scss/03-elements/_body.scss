@@ -1,6 +1,9 @@
+@import "../00-settings/fonts";
+
 body {
   background-color: $background-color;
   height: 100vh;
+
   font-family: $main-font-family;
   font-size: $main-font-size;
   line-height: 1;

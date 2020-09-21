@@ -36,7 +36,7 @@
 }
 
 nav ul li a {
-@include remove-linkstyle;
+  @include remove-linkstyle;
   cursor: none;
 }
 
@@ -48,24 +48,21 @@ nav ul li {
     overflow-x: hidden;
     cursor: default;
   }
-  .cursor{
+  .cursor {
     opacity: 0;
   }
   nav ul li a {
     cursor: default;
   }
- .nav-links {
+  .nav-links {
     display: none;
-
     position: absolute;
     right: 0px;
-    height: 90vh;
-    top: 10vh;
+    height: 95vh;
+    top: 5vh;
     background-color: $text-color;
-    //color: $background-color;
-   color:$gradient-color2;
+    color: $gradient-color2;
     font-size: $main-font-size*3;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,7 +70,7 @@ nav ul li {
     width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    z-index: 5;
+    z-index: 0;
 
   }
 
