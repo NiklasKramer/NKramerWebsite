@@ -1,6 +1,4 @@
 const enterPage = () => {
-
-
     // Enter through click
     const enterWebiste = document.querySelector('#LANDING')
     enterWebiste.addEventListener('click', () => {
