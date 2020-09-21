@@ -135,11 +135,11 @@ body {
   top: 0px;
   position: fixed;
   padding: 1%;
-  height: 80px;
   width: 100%;
   display: flex;
   min-height: 8vh;
   font-family: "Cormorant Garamond", serif;
+  height: 40px;
   justify-content: space-between;
   align-items: center;
   background-color: #f3f3f3;
@@ -181,17 +181,19 @@ nav ul li a {
   }
 
   .nav-links {
+    display: none;
     position: absolute;
     right: 0px;
-    height: 85vh;
-    top: 15vh;
+    height: 90vh;
+    top: 10vh;
     background-color: #030101;
     color: #f3f3f3;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     z-index: 5;
@@ -236,11 +238,11 @@ nav ul li a {
 
 .bnav ul {
   padding: 1%;
-  height: 80px;
   width: 100%;
   display: flex;
   min-height: 8vh;
   font-family: "Cormorant Garamond", serif;
+  height: 40px;
   position: relative;
   background-color: #f3f3f3;
 }

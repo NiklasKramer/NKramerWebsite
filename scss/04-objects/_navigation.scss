@@ -1,6 +1,5 @@
 @mixin navigation_bar {
   @include main-padding;
-  height: 80px;
   width: 100%;
   display: flex;
   min-height: 8vh;

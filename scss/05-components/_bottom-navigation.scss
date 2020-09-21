@@ -7,6 +7,7 @@
 
 .bnav ul{
   @include navigation_bar;
+  height: 40px;
   position: relative;
   background-color: $background-color;
 }

@@ -4,6 +4,7 @@
   top: 0px;
   position: fixed;
   @include navigation_bar;
+  height: 40px;
   justify-content: space-between;
   align-items: center;
   background-color: $background-color;
@@ -40,7 +41,6 @@ nav ul li a {
 }
 
 nav ul li {
-  //margin: 0 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -48,18 +48,20 @@ nav ul li {
     overflow-x: hidden;
   }
   .nav-links {
+    display: none;
     position: absolute;
     right: 0px;
-    height: 85vh;
-    top: 15vh;
+    height: 90vh;
+    top: 10vh;
     background-color: $text-color;
     color: $background-color;
+    font-size: $main-font-size*1.5;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     z-index: 5;
